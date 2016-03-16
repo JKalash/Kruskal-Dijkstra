@@ -1,0 +1,15 @@
+digraph G{
+0 [ color = "black", label ="Key :1, Value :23 , Prio :3"];
+1 [ color ="blue", label ="Key :2, Value :3, Prio :5"];
+2 [ color ="red", label ="Key :5, Value : 19, Prio :2"];
+3 [ color ="black", label ="Key :5, Value : 19, Prio :2"];
+4 [ color ="blue", label ="Key :5, Value : 19, Prio :2"];
+5 [ color ="red", label ="Key :5, Value : 19, Prio :2"];
+6 [ color ="black", label ="Key :5, Value : 19, Prio :2"];
+0->1;
+0->2;
+1->3
+1->4
+2->5
+2->6
+}
